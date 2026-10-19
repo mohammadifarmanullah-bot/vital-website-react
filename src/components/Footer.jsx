@@ -147,7 +147,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Navigation */}
-        <div className="mt-16 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:mt-12 lg:grid-cols-12 lg:gap-8">
+        <div className="mt-16 flex justify-end  lg:gap-20">
 
           {footerGroups.map((group) => (
             <div key={group.title} className="lg:col-span-2">
@@ -201,7 +201,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="mt-14 border-t border-gray-200 pt-6 text-sm text-[#777777]">
+        <div className="mt-14 flex justify-center border-t border-gray-200 pt-6 text-sm text-[#777777]">
           <p>
             © {new Date().getFullYear()} Vital+Flow. All rights reserved.
           </p>
